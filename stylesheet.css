@@ -1,0 +1,115 @@
+body {
+  color: black;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 48px;
+
+  margin-top: 48px;
+  margin-bottom: 32px;
+
+}
+
+h3 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+hr {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-top: 1px solid rgba(0,0,0,0.22);
+}
+
+p {
+  font-size: 20px;
+  line-height: 35px;
+}
+
+a {
+  color: #9C27B0;
+  font-weight: 500;
+}
+
+a:hover{
+  color: #9C27B0;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+img {
+  image-rendering: auto;
+}
+
+.icon {
+  opacity: 0.7;
+}
+
+.title {
+  color: white;
+  margin-bottom: 32px;
+}
+
+.app-icon{
+
+  border-radius: 50%;
+  -moz-box-shadow: 0px 4px 4px 4px #9C27B0; 
+  -webkit-box-shadow: 0px 4px 4px 4px #9C27B0;
+  box-shadow: 0px 4px 4px 4px #812191;
+
+  margin-left: 16px;
+  margin-right: 16px;
+
+  vertical-align: text-;
+}
+
+.feature {
+  text-align: justify;
+  margin-bottom: 32px;
+}
+
+.feature-video{
+  margin: 32px;
+}
+
+.feature-image {
+  object-fit: cover;
+
+  width: 350px;
+  height: 350px;
+
+  -moz-border-radius: 8px 8px 8px 8px;
+  -webkit-border-radius: 8px 8px 8px 8px;
+  border-radius: 8px;
+
+  -moz-box-shadow: 0px 4px 4px 4px rgba(0,0,0,0.22); 
+  -webkit-box-shadow: 0px 4px 4px 4px rgba(0,0,0,0.22);
+  box-shadow: 0px 4px 4px 4px rgba(0,0,0,0.22);
+
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.download-link {
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+
+.social-link {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  scale: 0.8;
+}
+
+.footer {
+  margin-top: 32px;
+}
