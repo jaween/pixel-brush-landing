@@ -10,124 +10,146 @@
 
   <title>Pixel Brush</title>
 
+  <link rel="icon" type="image/png" href="res/image/fav_icon.png" />
+
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <link href="stylesheet.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+
+  <link href="res/stylesheet.css" rel="stylesheet">
 
 </head>
 
 <body
-  style="background-image: url(image/banner_background.png); background-size: auto 600px; background-position-x: center; background-repeat: repeat-x; image-rendering: crisp-edges;">
+  style="background-image: url(res/image/banner_background.png); background-size: auto 600px; background-position-x: center; background-repeat: repeat-x;">
   <!-- Page Content -->
   <div class="container">
     <div class="row title">
-      <div class="col-md-7">
-        <img class="app-icon" src="image/app_icon.png" style="vertical-align: middle;" />
+      <div class="col-7">
+        <img class="app-icon" src="res/image/app_icon.png" />
         <h1 class="mt-5" style="display: inline-block;">Pixel Brush</h1>
         <hr />
-        <p>Learn to draw pixel art for free with Pixel Brush.<br />
-          Our friendly community will help you become a pixel pro.<br />
+        <p>Learn to draw pixel art for free, with Pixel Brush.<br />
+          Our friendly community will help you improve your skills.<br />
           Pixel Brush is used by over 100,000 artists around the world.<br />
-          <img class="download-link" src="image/google_play_badge.png" />
+          <a
+            href='https://play.google.com/store/apps/details?id=com.jaween.paint&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
+              style="width: 250px;" alt='Get it on Google Play'
+              src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' /></a>
         </p>
       </div>
-      <div class="col-md-5">
-        <img src="image/banner_devices.png">
+      <div class="col-5">
+        <img src="res/image/banner_devices.png">
       </div>
     </div>
     <div class="row text-center">
       <div class="col">
-        <div class="feature-video"><iframe width="100%" height="599px" style="display: flex"
+        <video class="feature-video" src="res/video/promo.mp4" width="100%" controls muted>
+          <iframe width="100%" height="599px" style="display: flex"
             src="https://www.youtube-nocookie.com/embed/0MmA9k48B0I" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        </video>
       </div>
     </div>
-    <div class="row">
+    <div class="row section">
       <div class="col text-center">
         <h2>New to pixel art?</h2>
+        <p>If you're an aspiring artist, or just want to have fun being creative, then pixel art is the medium for
+          you.<br />
+          Make pictures with a mosaic of colored dots called <i>pixels</i>, and let Pixel Brush help you bring your art
+          to life.</p>
       </div>
     </div>
-    <div class="row">
-      <div class="col text-center">
-        <p>Pixel Brush focuses on making it easy for beginners to dive into pixel art.</p>
-      </div>
-    </div>
-    <div>
+    <div class="section">
       <div class="row feature">
-        <div class="col"></div>
-        <div class="col-md-4">
-          <img width="100%" class="feature-image mx-auto d-block" src="image/screenshot_iso.png" />
-          <h3>Premade palettes</h3>
-          <p>Get started with drawing with any of the inbuilt palettes, or create your own.</p>
-        </div>
-        <div class="col"></div>
-        <div class="col-md-4">
-          <img width="100%" class="feature-image mx-auto d-block" src="image/screenshot_fox.png" />
+        <div class="col-md-5">
+          <img width="100%" class="feature-image mx-auto d-block" src="res/image/screenshot_fox.png" />
           <h3>Learn art, not an interface</h3>
-          <p>You’re learning, Pixel Brush will try to get out of your way.</p>
+          <p>Tap to draw, pinch to zoom, auto-save, auto-preview. You're here to do
+            art, so Pixel Brush tries to get out of your way.</p>
         </div>
-        <div class="col"></div>
+        <div class="col-sm-2"></div>
+        <div class="col-md-5">
+          <img width="100%" class="feature-image mx-auto d-block" src="res/image/screenshot_iso.png" />
+          <h3>Premade color palettes</h3>
+          <p>Start your art with a premade color palette, and create your own as you go.</p>
+        </div>
       </div>
       <div class="row feature">
-        <div class="col"></div>
-        <div class="col-md-4">
-          <img width="100%" class="feature-image mx-auto d-block" src="image/screenshot_pagoda.png" />
-          <h3>Never hit save again</h3>
-          <p>Get started with drawing with any of the inbuilt palettes, or create your own.</p>
+        <div class="col-md-5">
+          <img width="100%" class="feature-image mx-auto d-block" src="res/image/screenshot_pagoda.png" />
+          <h3>Tools of the trade</h3>
+          <p>Draw pixel perfect shapes, fill entire areas, select blobs of pixels, and more.</p>
         </div>
-        <div class="col"></div>
-        <div class="col-md-4">
-          <img width="100%" class="feature-image mx-auto d-block" src="image/screenshot_bedroom.png" />
+        <div class="col-sm-2"></div>
+        <div class="col-md-5">
+          <img width="100%" class="feature-image mx-auto d-block" src="res/image/screenshot_bedroom.png" />
           <h3>Supportive community
           </h3>
           <p>The Pixel Brush Discord community is friendly and can provide feedback to help you improve.</p>
         </div>
-        <div class="col"></div>
       </div>
       <div class="row feature">
-        <div class="col"></div>
-        <div class="col-md-4">
-          <img width="100%" class="feature-image mx-auto d-block" src="image/screenshot_bedroom.png" />
+        <div class="col-md-5">
+          <img width="100%" class="feature-image mx-auto d-block" src="res/image/screenshot_bedroom.png" />
+          <h3>Layers to organize your art</h3>
+          <p>Each layer has its own pixels, so you can keep your drawing organized. Rearrange, merge and hide
+            layers as you need.</p>
+        </div>
+        <div class="col-sm-2"></div>
+        <div class="col-md-5">
+          <img width="100%" class="feature-image mx-auto d-block" src="res/image/screenshot_color_picker.png" />
+          <h3>Coming soon: Animation</h3>
+          <p>Use multiple frames together to animate characters, scenery and more. Then export these as GIFs to share
+            with others.</p>
+        </div>
+      </div>
+      <div class="row feature">
+        <div class="col-md-5">
+          <img width="100%" class="feature-image mx-auto d-block" src="res/image/screenshot_bedroom.png" />
           <h3>Coming soon: Templates</h3>
           <p>Get started with drawing with any of the inbuilt palettes, or create your own.</p>
         </div>
-        <div class="col"></div>
-        <div class="col-md-4">
-          <img width="100%" class="feature-image mx-auto d-block" src="image/screenshot_color_picker.png" />
+        <div class="col-sm-2"></div>
+        <div class="col-md-5">
+          <img width="100%" class="feature-image mx-auto d-block" src="res/image/screenshot_color_picker.png" />
           <h3>Coming soon: Art lessons</h3>
           <p>Step-by-step guides to teach you new skills and techniques.</p>
         </div>
-        <div class="col"></div>
       </div>
-      <div class="row">
+      <div class="section">
         <div class="col text-center">
           <h2>Start drawing today</h2>
+          <p>App for iPhones and iPads coming soon.</p>
+          <a
+            href='https://play.google.com/store/apps/details?id=com.jaween.paint&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
+              style="width: 250px;" alt='Get it on Google Play'
+              src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' /></a>
         </div>
       </div>
-      <div class="row">
-        <div class="col text-center">
-          <img class="download-link" src="image/google_play_badge.png" />
-        </div>
-      </div>
-      <div class="row text-center icon">
-        <div class="col">
-          <a href=""><img class="social-link" src="image/social_instagram.png" /></a>
-          <a href=""><img class="social-link" src="image/social_discord.png" /></a>
-          <a href=""><img class="social-link" src="image/social_email.png" /></a>
-          <a href=""><img class="social-link" src="image/social_patreon.png" /></a>
+      <div class="social">
+        <div class="row text-center icon">
+          <div class="col">
+            <a href="https://www.instagram.com/pixelbrush.app/"><img class="social-link"
+                src="res/image/social_instagram.png" /></a>
+            <a href="https://discord.gg/cxTWP6e/"><img class="social-link" src="res/image/social_discord.png" /></a>
+            <a href="mailto://pixelbrush.app@gmail.com"><img class="social-link" src="res/image/social_email.png" /></a>
+            <a href="https://patreon.com/pixelbrush_app"><img class="social-link"
+                src="res/image/social_patreon.png" /></a>
+          </div>
         </div>
       </div>
       <div class="footer">
         <div class="row text-center">
           <div class="col text-center">
-            <p>Jaween Ediriweera</p>
+            <p class="copyright">Copyright © 2018-2020 Jaween Ediriweera</p>
           </div>
         </div>
         <div class="row text-center">
           <div class="col text-center">
-            <p><a href="">Privacy Policy</a> | <a href="">Disclaimer</a> | <a href="">Terms of Use</a></p>
+            <p><a href="res/document/privacy_policy.md">Privacy Policy</a> | <a
+                href="res/document/disclaimer.md">Disclaimer</a> | <a href="res/document/eula.md">EULA</a></p>
           </div>
         </div>
       </div>

@@ -1,26 +1,29 @@
 body {
   color: black;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 96px;
+  font-weight: 100;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 60px;
+  font-weight: 100;
 
-  margin-top: 48px;
+  margin-top: 32px;
   margin-bottom: 32px;
-
 }
 
 h3 {
-  font-size: 28px;
-  margin-bottom: 8px;
-}
+  font-size: 34px;
+  font-weight: 500;
 
-h4 {
-  font-size: 24px;
+  margin-bottom: 8px;
 }
 
 hr {
@@ -59,16 +62,13 @@ img {
 }
 
 .app-icon{
-
   border-radius: 50%;
   -moz-box-shadow: 0px 4px 4px 4px #9C27B0; 
   -webkit-box-shadow: 0px 4px 4px 4px #9C27B0;
   box-shadow: 0px 4px 4px 4px #812191;
 
-  margin-left: 16px;
   margin-right: 16px;
-
-  vertical-align: text-;
+  margin-top: -64px;
 }
 
 .feature {
@@ -77,14 +77,20 @@ img {
 }
 
 .feature-video{
-  margin: 32px;
+  -moz-border-radius: 8px 8px 8px 8px;
+  -webkit-border-radius: 8px 8px 8px 8px;
+  border-radius: 8px;
+
+  border: 1px solid rgba(0,0,0,0.22);
+
 }
 
 .feature-image {
   object-fit: cover;
+  
 
-  width: 350px;
-  height: 350px;
+  width: 100%;
+  height: 450px;
 
   -moz-border-radius: 8px 8px 8px 8px;
   -webkit-border-radius: 8px 8px 8px 8px;
@@ -98,9 +104,14 @@ img {
   margin-bottom: 24px;
 }
 
-.download-link {
-  margin-top: 32px;
+.section {
+  margin-top: 64px;
   margin-bottom: 64px;
+}
+
+.social {
+  margin-top: 128px;
+  margin-bottom: 128px;
 }
 
 .social-link {
@@ -112,4 +123,8 @@ img {
 
 .footer {
   margin-top: 32px;
+}
+
+.copyright {
+  color: rgba(0,0,0,0.44);
 }
