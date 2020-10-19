@@ -6,19 +6,6 @@ body {
   font-weight: 500;
 }
 
-h1 {
-  font-size: 48px;
-  font-weight: 600;
-}
-
-h2 {
-  font-size: 60px;
-  font-weight: 100;
-
-  margin-top: 32px;
-  margin-bottom: 32px;
-}
-
 h3 {
   font-size: 34px;
   font-weight: 500;
@@ -30,11 +17,6 @@ hr {
   margin-top: 24px;
   margin-bottom: 24px;
   border-top: 1px solid rgba(0,0,0,0.22);
-}
-
-p {
-  font-size: 20px;
-  line-height: 35px;
 }
 
 a {
@@ -68,6 +50,74 @@ a.button:hover {
 
 img {
   image-rendering: auto;
+}
+
+
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 100;
+
+  margin-top: 32px;
+  margin-bottom: 32px;
+  text-align: justify;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: start;
+}
+
+p {
+  font-size: 16px;
+  line-height: 35px;
+  text-align: justify;
+}
+
+@media (min-width: 576px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 992px) {
+  h2 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 60px;
+  }
 }
 
 .icon {
@@ -125,6 +175,10 @@ img {
   margin-bottom: 24px;
 }
 
+.feature-text {
+  text-align: justify;
+}
+
 .section {
   margin-top: 64px;
   margin-bottom: 64px;
@@ -134,8 +188,13 @@ img {
   opacity: 0.2
 }
 
+.quote {
+  text-align: center;
+}
+
 .attribution {
   color: rgba(0,0,0,0.60);
+  text-align: center;
 }
 
 .social {
@@ -144,14 +203,15 @@ img {
 }
 
 .social-link {
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-bottom: 24px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
   scale: 0.8;
 }
 
 footer {
   margin-top: 32px;
+  text-align: center;
 }
 
 .copyright {
