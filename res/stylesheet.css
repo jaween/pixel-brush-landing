@@ -49,6 +49,10 @@ a.button:hover {
   opacity: 1;
 }
 
+mediakit {
+  color: white;
+}
+
 img {
   image-rendering: auto;
 }
