@@ -1,9 +1,12 @@
 body {
-  color: black;
-
-  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
+  background: rgb(20, 20, 20);
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
 }
 
 h3 {
@@ -16,42 +19,39 @@ h3 {
 hr {
   margin-top: 24px;
   margin-bottom: 24px;
-  border-top: 1px solid rgba(0,0,0,0.22);
+  border-top: 1px solid rgba(255, 255, 255, 0.22);
 }
 
 a {
-  color: #9C27B0;
+  color: #9c27b0;
   font-weight: 500;
 }
 
-a:hover{
-  color: #9C27B0;
+a:hover {
+  color: #9c27b0;
   opacity: 0.5;
   text-decoration: none;
 }
 
 .button {
-  color: black;
-  background-color: #FFEB3B;
-  border-radius: 16px;
-  padding: 20px;
-  font-family: 'Roboto', sans-serif;
+  background-color: #bd25d8;
+  border-radius: 60px;
+  padding: 24px;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 400;
   border: none;
-  box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.6);
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.6);
 }
 
 a.button:hover {
-  background-color: #FFF9C4;
-  opacity: 1.0;
-  color: black;
+  background-color: #e135ff;
+  opacity: 1;
 }
 
 img {
   image-rendering: auto;
 }
-
 
 h1 {
   font-size: 30px;
@@ -133,10 +133,10 @@ p {
   font-size: 32px;
 }
 
-.app-icon{
+.app-icon {
   border-radius: 50%;
-  -moz-box-shadow: 0px 4px 4px 4px #9C27B0; 
-  -webkit-box-shadow: 0px 4px 4px 4px #9C27B0;
+  -moz-box-shadow: 0px 4px 4px 4px #9c27b0;
+  -webkit-box-shadow: 0px 4px 4px 4px #9c27b0;
   box-shadow: 0px 4px 4px 4px #812191;
 
   margin-right: 16px;
@@ -148,28 +148,27 @@ p {
   margin-bottom: 32px;
 }
 
-.feature-video{
-  -moz-border-radius: 16px 16px 16px 16px;
-  -webkit-border-radius: 16px 16px 16px 16px;
-  border-radius: 16px;
+.feature-video {
+  -moz-border-radius: 32px 32px 32px 32px;
+  -webkit-border-radius: 32px 32px 32px 32px;
+  border-radius: 32px;
 
-  -moz-box-shadow: 0px 10px 60px 0px rgba(0,0,0,0.1);
-  -webkit-box-shadow: 0px 10px 60px 0px rgba(0,0,0,0.1);
-  box-shadow: 0px 10px 60px 0px rgba(0,0,0,0.1);
-
+  -moz-box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1);
 }
 
 .feature-image {
   object-fit: cover;
   image-rendering: pixelated;
 
-  -moz-border-radius: 16px 16px 16px 16px;
-  -webkit-border-radius: 16px 16px 16px 16px;
-  border-radius: 16px;
+  -moz-border-radius: 32px 32px 32px 32px;
+  -webkit-border-radius: 32px 32px 32px 32px;
+  border-radius: 32px;
 
-  -moz-box-shadow: 0px 10px 60px 0px rgba(0,0,0,0.1);
-  -webkit-box-shadow: 0px 10px 60px 0px rgba(0,0,0,0.1);
-  box-shadow: 0px 10px 60px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1);
 
   margin-top: 32px;
   margin-bottom: 24px;
@@ -185,7 +184,7 @@ p {
 }
 
 .faded {
-  opacity: 0.2
+  opacity: 0.4;
 }
 
 .quote {
@@ -193,7 +192,7 @@ p {
 }
 
 .attribution {
-  color: rgba(0,0,0,0.60);
+  opacity: 0.6;
   text-align: center;
 }
 
@@ -215,7 +214,7 @@ footer {
 }
 
 .copyright {
-  color: rgba(0,0,0,0.44);
+  opacity: 0.44;
 }
 
 .top {
@@ -228,22 +227,22 @@ footer {
   overflow: hidden;
   z-index: -1;
 }
-.line{
+.line {
   position: absolute;
   width: 100%;
   overflow: hidden;
   height: 700px;
   background: #9c27b0;
 }
-.line-1{
+.line-1 {
   z-index: 15;
   opacity: 0.5;
 }
-.line-2{
+.line-2 {
   z-index: 10;
   opacity: 0.7;
 }
-.line-3{
+.line-3 {
   z-index: 5;
 }
 .wave {
@@ -265,7 +264,7 @@ footer {
   background-size: 50% 80px;
   animation: animate 60s linear infinite;
 }
-.wave3{
+.wave3 {
   -webkit-background-size: 50% 80px;
   background-size: 50% 80px;
   animation: animate 40s linear infinite;
