@@ -4,6 +4,7 @@
 const browsersync = require("browser-sync").create();
 const del = require("del");
 const gulp = require("gulp");
+const ghPages = require("gulp-gh-pages");
 const merge = require("merge-stream");
 
 // BrowserSync
@@ -48,6 +49,21 @@ function watchFiles() {
   gulp.watch("./**/*.html", browserSyncReload);
 }
 
+// Create dist folder
+function dist() {
+  return merge(
+    gulp.src("./vendor/**/*").pipe(gulp.dest("./dist/vendor")),
+    gulp.src("./*.html").pipe(gulp.dest("./dist")),
+    gulp.src("./res/**/*").pipe(gulp.dest("./dist/res")),
+    gulp.src("./CNAME").pipe(gulp.dest("./dist/")),
+  );
+}
+
+// Deploy to GitHub pages
+function deploy() {
+  return gulp.src("./dist/**/*").pipe(ghPages());
+}
+
 // Define complex tasks
 const vendor = gulp.series(clean, modules);
 const build = gulp.series(vendor);
@@ -58,4 +74,5 @@ exports.clean = clean;
 exports.vendor = vendor;
 exports.build = build;
 exports.watch = watch;
-exports.default = build;
+exports.default = watch;
+exports.deploy = gulp.series(build, dist, deploy)
