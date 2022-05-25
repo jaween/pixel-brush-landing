@@ -164,8 +164,6 @@ p {
 
 .feature-image {
   object-fit: cover;
-  image-rendering: pixelated;
-
   -moz-border-radius: 32px 32px 32px 32px;
   -webkit-border-radius: 32px 32px 32px 32px;
   border-radius: 32px;
