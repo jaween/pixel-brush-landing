@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.jaween.paint",
+            "sha256_cert_fingerprints": [
+                "7B:0B:38:F9:D6:02:0A:D9:A0:AC:AF:1E:13:C5:8A:4E:38:4B:78:4F:48:9E:A7:66:12:95:B8:B3:32:FE:F3:F2"
+            ]
+        }
+    }
+]
